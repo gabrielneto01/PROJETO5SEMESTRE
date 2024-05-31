@@ -1,0 +1,610 @@
+body {
+  font-size: 14px;
+  font-family: Viga;
+  background: rgb(32, 32, 32);
+}
+.fundo {
+  width: 100%;
+  height: 3446px;
+  background: rgb(32, 32, 32);
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.logo {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 5px;
+  left: 67px;
+  overflow: hidden;
+}
+.list_jog {
+  width: 237px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 42px;
+  left: 395px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: center;
+}
+.como_func {
+  width: 196px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 42px;
+  left: 650px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.contato {
+  width: 100px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 42px;
+  left: 900px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.cadastrar {
+  width: 126px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 42px;
+  /*left: 1600px;*/
+  left: 90%;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.banner {
+  width: 100%;
+  height: 713px;
+  background: url("../images/v402_14.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 102px;
+  left: 0px;
+  overflow: hidden;
+}
+.jogos_dest {
+  width: 350px;
+  color: rgb(13, 0, 255);
+  position: absolute;
+  top: 860px;
+  left: 840px;
+  font-family: Viga;
+  font-weight: bold;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: center;
+}
+.novi {
+  width: 353px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 930px;
+  left: 860px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black; 
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.como_func2 {
+  width: 380px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 1500px;
+  left: 830px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.como_func3 {
+  width: 470px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2050px;
+  left: 800px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+
+.capa_god {
+  width: 300px;
+  height: 400px;
+  background: url("../images/v402_17.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1000px;
+  left: 34px;
+  border-top-left-radius: 29px;
+  border-top-right-radius: 29px;
+  border-bottom-left-radius: 29px;
+  border-bottom-right-radius: 29px;
+  overflow: hidden;
+}
+.capa_fifa {
+  width: 300px;
+  height: 400px;
+  background: url("../images/v402_21.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1000px;
+  left: 450px;
+  border-top-left-radius: 29px;
+  border-top-right-radius: 29px;
+  border-bottom-left-radius: 29px;
+  border-bottom-right-radius: 29px;
+  overflow: hidden;
+}
+.capa_spider {
+  width: 300px;
+  height: 400px;
+  background: url("../images/v402_23.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1000px;
+  left: 850px;
+  border-top-left-radius: 29px;
+  border-top-right-radius: 29px;
+  border-bottom-left-radius: 29px;
+  border-bottom-right-radius: 29px;
+  overflow: hidden;
+}
+.capa_hogwarts {
+  width: 300px;
+  height: 400px;
+  background: url("../images/v402_hog.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1000px;
+  left: 1250px;
+  border-top-left-radius: 29px;
+  border-top-right-radius: 29px;
+  border-bottom-left-radius: 29px;
+  border-bottom-right-radius: 29px;
+  overflow: hidden;
+}
+.capa_mortal {
+  width: 300px;
+  height: 400px;
+  background: url("../images/v402_mk.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1000px;
+  left: 1650px;
+  border-top-left-radius: 29px;
+  border-top-right-radius: 29px;
+  border-bottom-left-radius: 29px;
+  border-bottom-right-radius: 29px;
+  overflow: hidden;
+}
+.capa_como {
+  width: 100%;
+  height: 354px;
+  background: url("../images/v402_27.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1600px;
+  left: 0px;
+  overflow: hidden;
+}
+.ban_esquer {
+  width: 500px;
+  height: 850px;
+  background: rgba(82,113,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 2150px;
+  left: 300px;
+  border-top-left-radius: 46px;
+  border-top-right-radius: 46px;
+  border-bottom-left-radius: 46px;
+  border-bottom-right-radius: 46px;
+  overflow: hidden;
+}
+.ban_esquer2 {
+  width: 500px;
+  height: 100px;
+  background: rgb(0, 47, 255);
+  opacity: 1;
+  position: absolute;
+  top: 2150px;
+  left: 300px;
+  border-top-left-radius: 46px;
+  border-top-right-radius: 46px;
+  border-bottom-left-radius: 46px;
+  border-bottom-right-radius: 46px;
+  overflow: hidden;
+}
+.ban_esquer3 {
+  width: 170px;
+  height: 50px;
+  background: rgb(0, 47, 255);
+  opacity: 1;
+  position: absolute;
+  top: 2930px;  
+  left: 470px;
+  border-top-left-radius: 46px;
+  border-top-right-radius: 46px;
+  border-bottom-left-radius: 46px;
+  border-bottom-right-radius: 46px;
+  overflow: hidden;
+}
+.ban_dire {
+  width: 500px;
+  height: 850px;
+  background: rgba(82,113,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 2150px;  
+  left: 1200px;
+  border-top-left-radius: 46px;
+  border-top-right-radius: 46px;
+  border-bottom-left-radius: 46px;
+  border-bottom-right-radius: 46px;
+  overflow: hidden;
+}
+.ban_dire2 {
+  width: 500px;
+  height: 100px;
+  background: rgb(0, 47, 255);
+  opacity: 1;
+  position: absolute;
+  top: 2150px;  
+  left: 1200px;
+  border-top-left-radius: 46px;
+  border-top-right-radius: 46px;
+  border-bottom-left-radius: 46px;
+  border-bottom-right-radius: 46px;
+  overflow: hidden;
+}
+.ban_dire3 {
+  width: 170px;
+  height: 50px;
+  background: rgb(0, 47, 255);
+  opacity: 1;
+  position: absolute;
+  top: 2930px;  
+  left: 1370px;
+  border-top-left-radius: 46px;
+  border-top-right-radius: 46px;
+  border-bottom-left-radius: 46px;
+  border-bottom-right-radius: 46px;
+  overflow: hidden;
+}
+.tex_ban_esquer {
+  width: 500px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2400px;
+  left: 300px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.tex_ban_esquer2 {
+  width: 50px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2180px;
+  left: 500px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: bold;
+  font-weight: Regular;
+  font-size: 45px;
+  opacity: 1;
+  text-align: center;
+}
+.tex_ban_esquer3 {
+  width: 500px;
+  color: red;
+  position: absolute;
+  top: 2300px;
+  left: 310px;
+  font-family: Viga;
+  font-weight: bold;
+  font-weight: Regular;
+  font-size: 60px;
+  opacity: 1;
+  text-align: center;
+}
+.tex_ban_esquer4 {
+  width: 200px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2950px;
+  left: 462px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: bold;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.tex_ban_dire {
+  width: 500px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2400px;
+  left: 1210px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.tex_ban_dire2 {
+  width: 50px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2180px;
+  left: 1380px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: bold;
+  font-weight: Regular;
+  font-size: 45px;
+  opacity: 1;
+  text-align: center;
+}
+.tex_ban_dire3 {
+  width: 500px;
+  color: red;
+  position: absolute;
+  top: 2300px;
+  left: 1200px;
+  font-family: Viga;
+  font-weight: bold;
+  font-weight: Regular;
+  font-size: 60px;
+  opacity: 1;
+  text-align: center;
+}
+.tex_ban_dire4 {
+  width: 200px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2950px;
+  left: 1360px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: bold;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.rodape {
+  width: 2020px;
+  height: 400px;
+  background: rgb(48, 48, 48);
+  opacity: 1;
+  position: absolute;
+  top: 3150px;
+  left: 1px;
+  overflow: hidden;
+}
+.logo_rodape {
+  width: 200px;
+  height: 200px;
+  background: url("../images/v401_7.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3200px;
+  left: 300px;
+  overflow: hidden;
+}
+.tex_menu_rodape {
+  width: 500px;
+  color: rgb(13, 0, 255);
+  position: absolute;
+  top: 3200px;
+  left: 410px;
+  font-family: Viga;
+  font-weight: bold;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 35px;
+  opacity: 1;
+  text-align: center;
+}
+.tex_list_rodape {
+  width: 237px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 3265px;
+  left: 559px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.tex_como_rodape {
+  width: 237px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 3320px;
+  left: 568px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.tex_cont_rodape {
+  width: 237px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 3375px;
+  left: 527px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.tex_contato_rodape {
+  width: 500px;
+  color: rgb(13, 0, 255);
+  position: absolute;
+  top: 3200px;
+  left: 800px;
+  font-family: Viga;
+  font-weight: bold;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 35px;
+  opacity: 1;
+  text-align: center;
+}
+.tex_hora_rodape {
+  width: 400px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 3265px;
+  left: 1000px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.img_hora_rodape {
+  width: 35px;
+  height: 35px;
+  background: url("../images/img_relo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3260px;
+  left: 965px;
+  overflow: hidden;
+}
+.tex_tele_rodape {
+  width: 300px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 3330px;
+  left: 940px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.img_tele_rodape {
+  width: 35px;
+  height: 35px;
+  background: url("../images/img_tele.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3330px;
+  left: 965px;
+  overflow: hidden;
+}
+.tex_mail_rodape {
+  width: 300px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 3400px;
+  left: 1000px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.img_mail_rodape {
+  width: 50px;
+  height: 50px;
+  background: url("../images/img_mail.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3390px;
+  left: 960px;
+  overflow: hidden;
+}
+.btn:hover{
+  color: #101dd9;
+  transition: 0.3s all;
+}
+a{
+  color: #FFFFFF;
+  text-decoration: none;
+}

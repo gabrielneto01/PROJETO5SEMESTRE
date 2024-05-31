@@ -1,2 +1,2 @@
-# PROJETO5SEMESTRE
-Códigos do site projeto 5 semestre
+# projeto-sitejogos
+Códigos fontes do projeto do nosso site de jogos

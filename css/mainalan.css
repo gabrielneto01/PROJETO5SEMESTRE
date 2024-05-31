@@ -1,0 +1,412 @@
+body {
+	font-size: 14px;
+	font-family: Viga;
+	background: rgb(32, 32, 32);
+  }
+  .fundo {
+	width: 100%;
+	height: 900px;
+	background: rgb(32, 32, 32);
+	position: relative;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+  }
+  .logo {
+	width: 84px;
+	height: 84px;
+	background: url("../images/v401_7.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	opacity: 1;
+	position: absolute;
+	top: 10px;
+	left: 67px;
+	overflow: hidden;
+  }
+  .list_jog {
+	width: 237px;
+	color: rgba(255,255,255,1);
+	position: absolute;
+	top: 42px;
+	left: 395px;
+	font-family: Viga;
+	text-shadow: 0.1em 0.1em 0.2em black;
+	font-weight: Regular;
+	font-size: 28px;
+	opacity: 1;
+	text-align: center;
+  }
+  .como_func {
+	width: 196px;
+	color: rgba(255,255,255,1);
+	position: absolute;
+	top: 42px;
+	left: 650px;
+	font-family: Viga;
+	text-shadow: 0.1em 0.1em 0.2em black;
+	font-weight: Regular;
+	font-size: 28px;
+	opacity: 1;
+	text-align: left;
+  }
+  .contato {
+	width: 100px;
+	color: rgba(255,255,255,1);
+	position: absolute;
+	top: 42px;
+	left: 900px;
+	font-family: Viga;
+	text-shadow: 0.1em 0.1em 0.2em black;
+	font-weight: Regular;
+	font-size: 28px;
+	opacity: 1;
+	text-align: left;
+  }
+  .cadastrar {
+	width: 126px;
+	color: rgba(255,255,255,1);
+	position: absolute;
+	top: 42px;
+	left: 1800px;
+	font-family: Viga;
+	text-shadow: 0.1em 0.1em 0.2em black;
+	font-weight: Regular;
+	font-size: 28px;
+	opacity: 1;
+	text-align: left;
+  }
+  .capaalan { 
+	width:400px;
+	height:400px;
+	position:absolute;
+    background-image:url("/images/alan_wake.png");
+	left:120px;
+	top:153px;
+	background-repeat:no-repeat;
+	background-size:cover;
+  }
+  .nome { 
+	color:rgba(255, 255, 255, 1);
+	width:670px;
+	height:81px;
+	position:absolute;
+	left:780px;
+	top:120px;
+	font-family:Viga;
+	text-align:center;
+	font-size:50px;
+	letter-spacing:0;
+}
+.texto { 
+	color:rgba(255, 255, 255, 1);
+	width:998px;
+	height:162px;
+	position:absolute;
+	left:600px;
+	top:200px;
+	font-family:Viga;
+	text-align:center;
+	font-size:20px;
+	letter-spacing:0;
+}
+.video{
+	position: absolute;
+	width: 793px;
+	height: 446px;
+	left:750px;
+	top: 300px;
+}
+/*
+.xone { 
+	opacity:0.30;
+	width:192px;
+	height:70px;
+	position:absolute;
+	left:897px;
+	top:906px;
+	border-top-left-radius:30px;
+	border-top-right-radius:30px;
+	border-bottom-left-radius:30px;
+	border-bottom-right-radius:30px;
+	background-image:url(images/one.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.xsx { 
+	opacity:0.30;
+	width:192px;
+	height:70px;
+	position:absolute;
+	left:1108px;
+	top:906px;
+	border-top-left-radius:30px;
+	border-top-right-radius:30px;
+	border-bottom-left-radius:30px;
+	border-bottom-right-radius:30px;
+	background-image:url(images/xs.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+*/
+.ps4 { 
+	width:200px;
+	height:110px;
+	position:absolute;
+	left:750px;
+	top:780px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	background-image:url("/images/logo_ps4.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.ps5 { 
+	opacity:0.30;
+	width:192px;
+	height:110px;
+	position:absolute;
+	left:980px;
+	top:780px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	background-image:url("/images/logo_ps5.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.text_bord { 
+	color:#FFFFFF;
+	width:169px;
+	height:169px;
+	position:absolute;
+	left:1286px;
+	top:820px;
+	font-family:Viga;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+	text-shadow: 0.1em 0.1em 0.2em black;
+}
+.bordae { 
+	background-color:#5271FF;
+	width:120px;
+	height:40px;
+	position:absolute;
+	left:1272px;
+	top:810px;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+}
+.info { 
+	color:rgba(255, 255, 255, 1);
+	width:480px;
+	height:108px;
+	position:absolute;
+	left:120px;
+	top:580px;
+	font-family:Viga;
+	text-align:left;
+	font-size:25px;
+	letter-spacing:0;
+}
+.ava { 
+	position: absolute;
+	left: 63px;
+	top: 664px;
+}
+#rating{
+	position: absolute;
+	width: 58px;
+	height: 54px;
+	left: 280px;
+	top: -40px;
+	font-family: 'Viga';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 54px;
+	color: #FFFFFF;
+}
+.rodape {
+	width: 2020px;
+	height: 400px;
+	background: rgb(48, 48, 48);
+	opacity: 1;
+	position: absolute;
+	top: 1100px;
+	left: 1px;
+	overflow: hidden;
+  }
+.logo_rodape {
+	width: 200px;
+	height: 200px;
+	background: url("/images/v401_7.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	opacity: 1;
+	position: absolute;
+	top: 1200px;
+	left: 300px;
+	overflow: hidden;
+  }
+  .tex_menu_rodape {
+	width: 500px;
+	color: rgb(13, 0, 255);
+	position: absolute;
+	top: 1150px;
+	left: 410px;
+	font-family: Viga;
+	font-weight: bold;
+	text-shadow: 0.1em 0.1em 0.2em black;
+	font-weight: Regular;
+	font-size: 35px;
+	opacity: 1;
+	text-align: center;
+  }
+  .tex_list_rodape {
+	width: 237px;
+	color: rgba(255,255,255,1);
+	position: absolute;
+	top: 1225px;
+	left: 559px;
+	font-family: Viga;
+	text-shadow: 0.1em 0.1em 0.2em black;
+	font-weight: Regular;
+	font-size: 25px;
+	opacity: 1;
+	text-align: center;
+  }
+  .tex_como_rodape {
+	width: 237px;
+	color: rgba(255,255,255,1);
+	position: absolute;
+	top: 1300px;
+	left: 568px;
+	font-family: Viga;
+	text-shadow: 0.1em 0.1em 0.2em black;
+	font-weight: Regular;
+	font-size: 25px;
+	opacity: 1;
+	text-align: center;
+  }
+  .tex_cont_rodape {
+	width: 237px;
+	color: rgba(255,255,255,1);
+	position: absolute;
+	top: 1375px;
+	left: 527px;
+	font-family: Viga;
+	text-shadow: 0.1em 0.1em 0.2em black;
+	font-weight: Regular;
+	font-size: 25px;
+	opacity: 1;
+	text-align: center;
+  }
+  .tex_contato_rodape {
+	width: 500px;
+	color: rgb(13, 0, 255);
+	position: absolute;
+	top: 1150px;
+	left: 800px;
+	font-family: Viga;
+	font-weight: bold;
+	text-shadow: 0.1em 0.1em 0.2em black;
+	font-weight: Regular;
+	font-size: 35px;
+	opacity: 1;
+	text-align: center;
+  }
+  .tex_hora_rodape {
+	width: 400px;
+	color: rgba(255,255,255,1);
+	position: absolute;
+	top: 1225px;
+	left: 1000px;
+	font-family: Viga;
+	text-shadow: 0.1em 0.1em 0.2em black;
+	font-weight: Regular;
+	font-size: 25px;
+	opacity: 1;
+	text-align: center;
+  }
+  .img_hora_rodape {
+	width: 35px;
+	height: 35px;
+	background: url("/images/img_relo.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	opacity: 1;
+	position: absolute;
+	top: 3260px;
+	left: 965px;
+	overflow: hidden;
+  }
+  .tex_tele_rodape {
+	width: 300px;
+	color: rgba(255,255,255,1);
+	position: absolute;
+	top: 1300px;
+	left: 940px;
+	font-family: Viga;
+	text-shadow: 0.1em 0.1em 0.2em black;
+	font-weight: Regular;
+	font-size: 25px;
+	opacity: 1;
+	text-align: center;
+  }
+  .img_tele_rodape {
+	width: 35px;
+	height: 35px;
+	background: url("/images/img_tele.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	opacity: 1;
+	position: absolute;
+	top: 3330px;
+	left: 965px;
+	overflow: hidden;
+  }
+  .tex_mail_rodape {
+	width: 300px;
+	color: rgba(255,255,255,1);
+	position: absolute;
+	top: 1375px;
+	left: 1000px;
+	font-family: Viga;
+	text-shadow: 0.1em 0.1em 0.2em black;
+	font-weight: Regular;
+	font-size: 25px;
+	opacity: 1;
+	text-align: center;
+  }
+  .img_mail_rodape {
+	width: 50px;
+	height: 50px;
+	background: url("/images/img_mail.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	opacity: 1;
+	position: absolute;
+	top: 3390px;
+	left: 960px;
+	overflow: hidden;
+  }
+.btn:hover{
+	color: rgb(13, 0, 255);
+	transition: 0.3s all;
+}
+a{
+	color: #FFFFFF;
+	text-decoration: none;
+}

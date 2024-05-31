@@ -1,0 +1,578 @@
+body {
+	font-size: 14px;
+	font-family: Viga;
+	background: rgb(32, 32, 32);
+  }
+
+.fundo { 
+	background: rgb(32, 32, 32);
+	width:100%;
+	height: 200px;
+	left: 0;
+	top: 0;
+	position:absolute;
+}
+.logo2 { 
+	width:84px;
+	height:84px;
+	position:absolute;
+	left:67px;
+	top:18px;
+	background-image:url("../images/v401_7.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.lista { 
+	width: 237px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 42px;
+  left: 395px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: center;
+}
+.como { 
+	width: 196px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 42px;
+  left: 650px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.cont { 
+	width: 100px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 42px;
+  left: 900px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+.cadastrar { 
+	width: 126px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 42px;
+  left: 1800px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+button {
+    background-color: deepskyblue;
+    border-radius: 17px;
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Calistoga';
+	font-size: 17px;
+	color: white;
+}
+.banner { 
+	/*width:100%;
+	height:713px;
+	position:absolute;
+	left:0px;
+	top:102px;
+	background-image:url(images/banner_final_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+*/
+	width: 100%;
+    height: 713px;
+    background: url(images/banner_final_1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 102px;
+    left: 0px;
+    overflow: hidden;
+}
+.img {
+	width:431px;
+	height:431px;
+	left:40px;
+	top:930px;
+}
+.fc { 
+	width:431px;
+	height:431px;
+	position:absolute;
+	left:200px;
+	top:400px;
+	background-image:url(images/fifa_24.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.spider { 
+	width:431px;
+	height:431px;
+	position:absolute;
+	left:800px;
+	top:400px;
+	background-image:url(images/spider_man_2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.gta { 
+	width:431px;
+	height:431px;
+	position:absolute;
+	left:1400px;
+	top:400px;
+	opacity: 30%;
+	background-image:url(images/gta_6.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.gow { 
+	width:431px;
+	height:431px;
+	position:absolute;
+	left:200px;
+	top:1000px;
+	background-image:url(images/god.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.star { 
+	width:431px;
+	height:431px;
+	position:absolute;
+	left:800px;
+	top:1000px;
+	background-image:url(images/starfiled.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.hog { 
+	width:431px;
+	height:431px;
+	position:absolute;
+	left:1400px;
+	top:1000px;
+	background-image:url(images/hogwarts.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.cod { 
+	width:431px;
+	height:431px;
+	position:absolute;
+	left:200px;
+	top:1600px;
+	background-image:url(images/cod.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.mk1 { 
+	width:431px;
+	height:431px;
+	position:absolute;
+	left:800px;
+	top:1600px;
+	background-image:url(images/mk1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.alan { 
+	width:431px;
+	height:431px;
+	position:absolute;
+	left:1400px;
+	top:1600px;
+	background-image:url(images/alan_wake.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.rodape { 
+	width: 2020px;
+  height: 400px;
+  background: rgb(48, 48, 48);
+  opacity: 1;
+  position: absolute;
+  top: 2200px;
+  left: 1px;
+  overflow: hidden;
+}
+.email_roda { 
+	width: 300px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2450px;
+  left: 1000px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.contato { 
+	width: 500px;
+  color: rgb(13, 0, 255);
+  position: absolute;
+  top: 2250px;
+  left: 800px;
+  font-family: Viga;
+  font-weight: bold;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 35px;
+  opacity: 1;
+  text-align: center;
+}
+.hora_roda { 
+	width: 400px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2320px;
+  left: 1000px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.num_roda { 
+	width: 400px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2380px;
+  left: 890px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.logo_roda { 
+	width:200px;
+	height:200px;
+	position:absolute;
+	left: 300px;
+	top: 2250px;
+	background-image:url(/images/v401_7.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.img_hora { 
+	width: 35px;
+  	height: 35px;
+	position:absolute;
+	left: 965px;
+	top: 2320px;
+	background-image:url(/images/hora.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.img_tel { 
+	width: 35px;
+  	height: 35px;
+	position:absolute;
+	left: 965px;
+	top: 2380px;
+	background-image:url(/images/img_tele.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.img_carta { 
+	width: 50px;
+  	height: 50px;
+	position:absolute;
+	left: 960px;
+	top: 2440px;
+	background-image:url(/images/img_mail.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.lista_roda { 
+	width: 237px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2320px;
+  left: 559px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.como_roda { 
+	width: 237px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2380px;
+  left: 568px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.cont_roda { 
+	width: 237px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2445px;
+  left: 527px;
+  font-family: Viga;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.menu { 
+	width: 500px;
+  color: rgb(13, 0, 255);
+  position: absolute;
+  top: 2250px;
+  left: 410px;
+  font-family: Viga;
+  font-weight: bold;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-weight: Regular;
+  font-size: 35px;
+  opacity: 1;
+  text-align: center;
+}
+.btn:hover{
+	color: #101dd9;
+	transition: 0.3s all;
+  }
+  a{
+	color: #FFFFFF;
+	text-decoration: none;
+  }
+  .texto1{
+    width: 500px;
+    color: rgb(13, 0, 255);
+    position: absolute;
+    top: 200px;
+    left: 780px;
+    font-family: Viga;
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-weight: Regular;
+    font-size: 50px;
+    opacity: 1;
+    text-align: center;
+  }
+.texto2{
+    width: 1600px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    font-family: Viga;
+    text-shadow: 0.1em 0.1em 0.2em black; 
+    font-weight: Regular;
+    font-size: 28px;
+    opacity: 1;
+    text-align: left;
+  }
+.topico1{
+    width: 600px;
+    color: rgb(13, 0, 255);
+    position: absolute;
+    top: 530px;
+    left: 150px;
+    font-family: Viga;
+    text-shadow: 0.1em 0.1em 0.2em black; 
+    font-weight: Regular;
+    font-size: 28px;
+    opacity: 1;
+    text-align: left;
+}
+.topico1-2{
+    width: 600px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 590px;
+    left: 150px;
+    font-family: Viga;
+    text-shadow: 0.1em 0.1em 0.2em black; 
+    font-weight: Regular;
+    font-size: 28px;
+    opacity: 1;
+    text-align: left;
+}
+.topico2{
+    width: 600px;
+    color: rgb(13, 0, 255);
+    position: absolute;
+    top: 750px;
+    left: 150px;
+    font-family: Viga;
+    text-shadow: 0.1em 0.1em 0.2em black; 
+    font-weight: Regular;
+    font-size: 28px;
+    opacity: 1;
+    text-align: left;
+}
+.topico2-2{
+    width: 600px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 800px;
+    left: 150px;
+    font-family: Viga;
+    text-shadow: 0.1em 0.1em 0.2em black; 
+    font-weight: Regular;
+    font-size: 28px;
+    opacity: 1;
+    text-align: left;
+}
+.topico3{
+    width: 600px;
+    color: rgb(13, 0, 255);
+    position: absolute;
+    top: 960px;
+    left: 150px;
+    font-family: Viga;
+    text-shadow: 0.1em 0.1em 0.2em black; 
+    font-weight: Regular;
+    font-size: 28px;
+    opacity: 1;
+    text-align: left;
+}
+.topico3-2{
+    width: 600px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 1010px;
+    left: 150px;
+    font-family: Viga;
+    text-shadow: 0.1em 0.1em 0.2em black; 
+    font-weight: Regular;
+    font-size: 28px;
+    opacity: 1;
+    text-align: left;
+}
+.topico4{
+    width: 600px;
+    color: rgb(13, 0, 255);
+    position: absolute;
+    top: 1200px;
+    left: 150px;
+    font-family: Viga;
+    text-shadow: 0.1em 0.1em 0.2em black; 
+    font-weight: Regular;
+    font-size: 28px;
+    opacity: 1;
+    text-align: left;
+}
+.topico4-2{
+    width: 600px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 1250px;
+    left: 150px;
+    font-family: Viga;
+    text-shadow: 0.1em 0.1em 0.2em black; 
+    font-weight: Regular;
+    font-size: 28px;
+    opacity: 1;
+    text-align: left;
+}
+.topico5{
+    width: 600px;
+    color: rgb(13, 0, 255);
+    position: absolute;
+    top: 1410px;
+    left: 150px;
+    font-family: Viga;
+    text-shadow: 0.1em 0.1em 0.2em black; 
+    font-weight: Regular;
+    font-size: 28px;
+    opacity: 1;
+    text-align: left;
+}
+.topico5-2{
+    width: 600px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 1460px;
+    left: 150px;
+    font-family: Viga;
+    text-shadow: 0.1em 0.1em 0.2em black; 
+    font-weight: Regular;
+    font-size: 28px;
+    opacity: 1;
+    text-align: left;
+}
+.topico6{
+    width: 600px;
+    color: rgb(13, 0, 255);
+    position: absolute;
+    top: 1620px;
+    left: 150px;
+    font-family: Viga;
+    text-shadow: 0.1em 0.1em 0.2em black; 
+    font-weight: Regular;
+    font-size: 28px;
+    opacity: 1;
+    text-align: left;
+}
+.topico6-2{
+    width: 600px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 1700px;
+    left: 150px;
+    font-family: Viga;
+    text-shadow: 0.1em 0.1em 0.2em black; 
+    font-weight: Regular;
+    font-size: 28px;
+    opacity: 1;
+    text-align: left;
+}
+.liu-kang{
+    width:980px;
+	height:1300px;
+	position:absolute;
+	left:980px;
+	top:460px;
+	background-image:url(/images/img_kratos.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.assine{
+    width: 800px;
+    color: rgb(13, 0, 255);
+    position: absolute;
+    top: 2000px;
+    left: 660px;
+    font-family: Viga;
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-weight: Regular;
+    font-size: 50px;
+    opacity: 1;
+    text-align: center;
+  }

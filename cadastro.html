@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+
+    <title> TEC PLAY - Cadastro </title>
+    <meta name="description" content="Figma htmlGenerator">
+    <meta name="author" content="htmlGenerator">
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="/css/main2.css"> -->
+	<link href="./css/main2.css" rel="stylesheet" />
+
+    <style>
+        body {
+            background: rgb(32, 32, 32);
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
+    <div class="borda_fim">
+        <!-- <div class="logo"><a href="index.html"><img img width="100px" height="100px"src="./images/v401_7.png"></a></div> -->
+		<div class="logo"><a href="index.php"><img width="84px" height="84px"src="./images/v401_7.png"></a></div>
+        <span class="list"><a href="Lista.php"class="btn"> Lista de Jogos </a></span>
+        <span class="funci"><a href="como.php"class="btn"> Como Funciona </a></span>
+        <span class="contato"><a href="contato.php"class="btn"> Contato </a></span>
+        <span class="entrar"><a href="index.php" class="btn">Home</a></span> 
+        
+       </div>
+       
+        <div class="Cadastro">
+    </div>    <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
+            <div>
+                <h1 id="titulo">Cadastro de Players </h1>
+                <p id="subtitulo">Preencha seus dados abaixo</p>
+                <br>
+            </div>
+    
+            <!-- Início do formulário -->
+            <form method="post" name="cadastro" id="cadastro" action="cadastro.php">
+                <fieldset class="grupo">
+                    <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+                    <div class="campo">
+                        <label for="nome"><strong>Nome Completo</strong></label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+				</fieldset> 
+					<!-- Campo de email com-->
+				<fieldset class="grupo">
+					<div class="email">
+						<label for="sobrenome"><strong >E-mail</strong></label>
+						<input type="email" name="email" id="email" required>
+					</div>
+				</fieldset> 
+				<fieldset class="grupo">
+					<!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+					<div class="campo">
+						<label for="nome"><strong>Senha </strong></label>
+						<input type="password" name="senha" id="senha" required>
+					</div>
+		
+					<!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+					<div class="campo">
+						<label for="sobrenome"><strong>Confirme sua senha </strong></label>
+						<input type="password" name="confirmandoSenha" id="confirmandoSenha" required>
+					</div>
+				</fieldset> 
+         
+                <fieldset class="grupo">
+                    <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
+                    <div id="check">
+    
+                    </div>
+                </fieldset>
+                <div>
+                    <h1 id="titulo">Forma de pagamento </h1>
+                    <p id="subtitulo">Preencha seus dados abaixo</p>
+                    <br>
+                </div>
+    
+                <fieldset class="grupo">   
+				<label for="senioridade"><strong>Qual o plano ?  </strong></label><br> 
+                    <select id="senioridade" name="plano" required>
+                      <option selected disabled value="">Selecione</option>
+                      <option>Prata (R$ 19,90)</option>
+                      <option>Ouro (R$ 29,90)</option>
+                      
+                    </select> 
+					<br><br><br>
+    
+                    <label for="senioridade"><strong>Forma de pagamento   </strong></label><br> 
+                    <select id="senioridade" onclick="option()" name="options" class="options" required>
+                      <option selected disabled value="">Selecione</option>
+                      <option value="boleto">Boleto</option>
+                      <option value="pix">Pix</option>
+                      
+                    </select>
+                </fieldset>
+                <!-- Caixa de texto -->
+				<br><br>
+                <button class="btn third" type="submit" id="btnCadastro"><strong>CONFIRMAR</strong></button>
+				<!-- <button class="btn third" type="submit" id="Submit" >Cadastro</button> -->
+            </form>
+           <!-- CARTÃO DEBITO/CREDITO " -->
+    
+            
+           <div class="PgtoCartao hidden">
+                <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+                <div>
+                    <h1 id="titulo">Cartão de Crédito / Débito</h1>
+                    <p id="subtitulo">Preencha seus dados abaixo</p>
+                    <br>
+                </div>
+                
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+    
+                <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="sobrenome"><strong>CPF titular</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+    
+                <div class="campo">
+                    <label for="sobrenome"><strong>N. Cartão</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+    
+                <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="nome"><strong>CVV</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+    
+                <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="sobrenome"><strong>Validade</strong></label>
+                    <input type="month" name="sobrenome" id="sobrenome" required>
+                </div>
+    
+            </div> 
+    
+            <!-- PIX  " -->
+            <div class="Pix hidden">
+                <div>
+                    <h1 id="titulo">Pagamento via Pix</h1>
+                    <p id="subtitulo"> Informações do pagamento    </p>
+                    <br>
+                </div>
+            
+                <fieldset>
+                    <div class="qrcode">
+                        <img src="./images/qrcode.png" alt="some text" width=100 height=100 aria-label="200" >
+                    </div>
+                
+                </fieldset>
+                <br><br><br> 
+                <div class="pix">
+                
+                    <p>...................Escaneie o <strong>QR CODE</strong>  acima e  confirme as informações de pagamento!</p>     
+                    <br>
+                    <p>...................Após o pagamento você irá receber a confirmação pelo e-mail de contato.</p>
+                </div>
+                <br><br><br>
+            </div>
+    
+    
+    
+             <!-- boleto " -->
+            <div class="Boleto hidden">
+                    <div>
+                        <h1 id="titulo">Pagamento via  Boleto</h1>
+                        <p id="subtitulo"> Informações do pagamento    </p>
+                        <br>
+                    </div>
+                
+                    <fieldset>
+                        <div class="Cbarra">
+                    <img src="./images/boleto.jpg" alt="some text" width=700 height=200 aria-label="200" >
+                        </div>
+                    
+                    </fieldset>
+                    <br><br><br> 
+                <div class="pix">
+                
+                    <p>.............................<Strong>Escaneie o Código de barras acima ou digite o número do boleto</Strong>...................<br><br>
+
+                    
+                    <p><br>.............................<Strong>Após o pagamento você irá receber a confirmação pelo e-mail de contato.</Strong>....</p>
+                </div>
+            </div>
+            
+            <script src="scripts.js"></script>
+    
+    
+            
+            <br>               <br>
+            <br>
+		
+    <!-- <button class="btn third" onclick="funcao1()" type="btn third">CONFIRMAR PAGAMENTO </button> -->
+    <!-- <button class="btn third" type="submit">CONFIRMAR PAGAMENTO </button> <!-- <button class="btn third" type="submit">CONFIRMAR PAGAMENTO </button> <!-- <button class="btn third" type="submit">CONFIRMAR PAGAMENTO </button> <!-- <button class="btn third" type="submit">CONFIRMAR PAGAMENTO </button> -->
+    <!-- <p id="demo"></p> -->
+    
+    <!-- <script> -->
+    <!-- function funcao1() -->
+    <!-- { -->
+    <!-- var x; -->
+    <!-- var r=confirm("Seu cadastro foi realizado , Aguarde confirmação via E-mail"); -->
+    <!-- if (r==true) -->
+      <!-- { -->
+      <!-- x="Seu pagamento foi concluido com sucesso !"; -->
+      <!-- } -->
+    <!-- else -->
+      <!-- { -->
+      <!-- x="" -->
+      <!-- } -->
+    <!-- document.getElementById("demo").innerHTML=x; -->
+    <!-- } -->
+    <!-- </script> -->
+    <!-- </button> -->
+    <br><br><br><br><br><br>
+        </body>
+    
+    </html>
